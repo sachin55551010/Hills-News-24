@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.about-heading {
+  font-family: "'Georgia', 'Times New Roman', serif";
+}
+
+.voice {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

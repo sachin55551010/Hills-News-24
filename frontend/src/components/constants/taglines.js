@@ -1,0 +1,6 @@
+export const TAGLINES = [
+  "INDEPENDENT",
+  "FACT-CHECKED",
+  "MULTILINGUAL",
+  "OPEN ACCESS",
+];
