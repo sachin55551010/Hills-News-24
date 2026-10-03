@@ -63,10 +63,10 @@ export const Header = () => {
           href="https://wa.me/919817540917?text=Hello%20I%20want%20more%20information"
           target="_blank"
           rel="noopener noreferrer"
-          className=""
+          className="flex-1"
         >
           <div
-            className="flex-1 relative overflow-hidden cursor-pointer group
+            className="flex-1 h-full relative overflow-hidden cursor-pointer group
     rounded-xl
     bg-black/40 hover:bg-zinc-800/50
     border border-zinc-700/60 hover:border-zinc-500/60
