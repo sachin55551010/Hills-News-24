@@ -1,15 +1,16 @@
 import { motion } from "motion/react";
-
 import { Link } from "react-router-dom";
 import { FollowBtn } from "../components/FollowBtn";
+
 export const ContactPage = () => {
   const growUp = {
     initial: { opacity: 0, scale: 0.9, y: 20 },
     animate: { opacity: 1, scale: 1, y: 0 },
     transition: { duration: 0.5, ease: "easeOut" },
   };
+
   return (
-    <div className="min-h-screen w-full bg-base-100 text-base-content font-serif">
+    <div className="min-h-screen w-full bg-base-100 text-base-content">
       {/* Navbar */}
       <motion.nav
         {...growUp}
@@ -20,12 +21,10 @@ export const ContactPage = () => {
             H
           </div>
 
-          {/* heading and follow button */}
           <div className="flex items-center gap-4">
             <span className="font-bold tracking-widest text-sm uppercase">
               Hills News 24
             </span>
-
             <FollowBtn />
           </div>
         </div>
@@ -122,11 +121,9 @@ export const ContactPage = () => {
           </p>
 
           <p className="text-sm text-base-content/60">PO & Teh: Kandaghat</p>
-
           <p className="text-sm text-base-content/60">
             District Solan, Himachal Pradesh
           </p>
-
           <p className="text-sm text-base-content/60">India — 173215</p>
         </motion.div>
 

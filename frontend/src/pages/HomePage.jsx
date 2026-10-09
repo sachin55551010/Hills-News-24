@@ -59,7 +59,6 @@ export const HomePage = () => {
             fontWeight: 700,
             fontSize: "1.2rem",
             letterSpacing: "0.03em",
-            color: "#f8fafc",
           }}
         >
           Hills{" "}
@@ -69,7 +68,6 @@ export const HomePage = () => {
               fontSize: "0.8rem",
               fontFamily: "'Courier New', monospace",
               fontWeight: 400,
-              color: "rgba(248,250,252,0.4)",
             }}
           >
             24
